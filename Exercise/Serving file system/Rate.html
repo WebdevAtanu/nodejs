@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"crossorigin="anonymous">
+    <link rel="preconnect"href="https://fonts.googleapis.com">
+    <link rel="preconnect"href="https://fonts.gstatic.com"crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"rel="stylesheet">
+    <style>
+    .head {
+    display: flex;
+    background-color: #111224;
+    color: white;
+    width: 100%;
+    margin: auto;
+    height: 10vh;
+    }
+    .part {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 10px;
+    grid-gap: 10px;
+    }
+    .contain {
+    border: 1px solid black;
+    width: 100%;
+    height: 80vh;
+    margin: 10px auto;
+    }
+    button {
+    margin-left: 2%;
+    }
+    svg {
+    color: white;
+    }
+    h3 {
+    font-family: 'Dancing Script', cursive;
+    }
+    h4 {
+    font-family: 'Dancing Script', cursive;
+    width: 10%;
+    margin: auto;
+    text-decoration: underline;
+    }
+    .offcanvas-body a {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    }
+    .offcanvas-body a:hover {
+    color: lightskyblue;
+    }
+    .table th, .table td {
+    font-size: 15px;
+    padding: 0 5px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <button class="btn"type="button"data-bs-toggle="offcanvas"data-bs-target="#staticBackdrop"aria-controls="staticBackdrop">
+      <svg xmlns="http://www.w3.org/2000/svg"width="30"height="30"fill="currentColor"class="bi bi-list"viewBox="0 0 16 16">
+        <path fill-rule="evenodd"d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+      </button>
+      <h3>Maa kali gift corner</h3>
+    </div>
+    <h4>Rate chart</h4>
+    <div class="part">
+      <div class="contain">
+        <table class="table table-striped mytable1">
+          <tr class="table-dark">
+            <th>Item</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Flask</td>
+            <td>250</td>
+          </tr>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+        </table>
+      </div>
+      <div class="contain">
+        <table class="table table-striped mytable2">
+          <tr class="table-dark">
+            <th>Item</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Flask</td>
+            <td>250</td>
+          </tr>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+        </table>
+      </div>
+      <div class="contain">
+        <table class="table table-striped mytable3">
+          <tr class="table-dark">
+            <th>Item</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Flask</td>
+            <td>250</td>
+          </tr>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="offcanvas offcanvas-start"data-bs-backdrop="static"tabindex="-1"id="staticBackdrop"aria-labelledby="staticBackdropLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title"id="staticBackdropLabel"style="font-family: 'Dancing Script', cursive;">Links</h5>
+        <button type="button"class="btn-close"data-bs-dismiss="offcanvas"aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          <a class="nav-link"href="/contact">Contact Us</a>
+          <a class="nav-link active"href="/about">About Us</a>
+          <a class="nav-link"href="/">Home</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"crossorigin="anonymous"></script>
+  </body>
+</html>

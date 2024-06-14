@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>profile page</title>
+	</head>
+	<body>
+		<%-include("headerPage")%>
+		<h1>This is profile page for ejs</h1>
+		<p>welcome <%= user.name %></p>
+		<ul>
+			<% user.skill.forEach((item)=>{ %>
+			<li><%= item %></li>
+			<% }) %>
+		</ul>
+	</body>
+</html>
+<!-- the containing folder name should be "views".
+<%= %> use for embed into html.
+<% %> use for javascript logic.
+<%- %> use for including ejs html file. -->

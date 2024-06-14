@@ -1,0 +1,1 @@
+This is read operation by Read from file JavaScript.
